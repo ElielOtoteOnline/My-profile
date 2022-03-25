@@ -5,16 +5,197 @@ html{
 body{
     background-color: white;
     display: block;
+   
 
 }
+.paper{
+    display: flex;
+    height: 40vh;
+    margin:45px;
+}
 .box{
-    width:60%;
-    height: 30vh;
+    width:1800%;
+    height: 40vh;
+    margin: 30px;
+    margin-left: 90%;
+    cursor: pointer;
+    box-shadow: 4px 4px 10px rgb(184, 180, 180), -2px -2px 8px rgb(235, 228, 228);
+    text-decoration: none;
+   background-image:url(./pics/img7.jpg);
+    background-position:initial;
+    background-size:55%;
+    background-repeat: no-repeat;
+    background-color: rgba(82, 78, 78, 0.041);
+   
+}
+.box2{
+    width:1800%;
+    height: 40vh;
     background-color: white;
     margin: 30px;
-    margin-left: 4%;
+    margin-left: 2200%;
     cursor: pointer;
-    box-shadow: 4px 4px 10px rgb(230, 227, 227), -2px -2px 8px rgb(230, 227, 227);
+    box-shadow: 4px 4px 10px rgb(184, 180, 180), -2px -2px 8px rgb(235, 228, 228);
     text-decoration: none;
+    background-image:url(./pics/img7.jpg);
+    background-position:initial;
+    background-size:55%;
+    background-repeat: no-repeat;
+    background-color: rgba(82, 78, 78, 0.041);
     
+}
+.box3{
+    width:1800%;
+    height: 40vh;
+    background-color: white;
+    margin: 30px;
+    margin-left: 90%;
+    cursor: pointer;
+    box-shadow: 4px 4px 10px rgb(184, 180, 180), -2px -2px 8px rgb(235, 228, 228);
+    text-decoration: none;
+    background-image:url(./pics/img7.jpg);
+    background-position:initial;
+    background-size:55%;
+    background-repeat: no-repeat;
+    background-color: rgba(82, 78, 78, 0.041);
+}
+.box4{
+    width:1800%;
+    height: 40vh;
+    background-color: white;
+    margin: 30px;
+    margin-left: 2200%;
+    cursor: pointer;
+    box-shadow: 4px 4px 10px rgb(184, 180, 180), -2px -2px 8px rgb(235, 228, 228);
+    text-decoration: none;
+    background-image:url(./pics/img7.jpg);
+    background-position:initial;
+    background-size:55%;
+    background-repeat: no-repeat;
+    background-color: rgba(82, 78, 78, 0.041);
+    
+}
+.box5{
+    width:1800%;
+    height: 40vh;
+    background-color: white;
+    margin: 30px;
+    margin-left: 90%;
+    cursor: pointer;
+    box-shadow: 4px 4px 10px rgb(184, 180, 180), -2px -2px 8px rgb(235, 228, 228);
+    text-decoration: none;
+    background-image:url(./pics/img7.jpg);
+    background-position:initial;
+    background-size:55%;
+    background-repeat: no-repeat;
+    background-color: rgba(82, 78, 78, 0.041);
+}
+p{
+    margin-left: 22.3%;
+    margin-top: 5%;
+    text-decoration: none;
+    font-size: 33px;
+    position:absolute;
+    font-weight: 700;
+    color: rgb(73, 36, 9);
+}
+.p1{
+    margin-top: 8%;
+    font-weight: 100;
+    font-size: 26px;
+}
+.p2{
+    margin-top: 10%;
+    font-weight: 100;
+    font-size: 26px;
+}
+.p3{
+    font-weight: 800;
+    font-size: 30px;
+    margin-top: 5.8%;
+    position: absolute;
+}
+button{
+    margin-top: 16%;
+    margin-left: 23.3%;
+    display: block;
+    background-color: rgb(73, 36, 9);
+    position: absolute;
+    border: none;
+    color: white;
+    width: 15%;
+    font-size: large;
+    border-radius: 10px;
+}
+.bob{
+    margin-top: 14%;
+}
+@media(max-width:767px){
+    body{
+        width: 98%;
+        height: 100vh;
+    }
+.paper{
+    display: block;
+    width: 99%;
+}
+.box{
+    width: 90%;
+    margin-left: -10%;
+    margin-top: -10px;
+    height: 20vh;
+}
+
+.box2{
+    width: 90%;
+    margin-left: -10%;
+    margin-top: -10px;
+    height: 20vh;
+}
+
+.box3{
+    width: 90%;
+    margin-left: -10%;
+    margin-top: -10px;
+    height: 20vh;
+}
+
+.box4{
+    width: 90%;
+    margin-left: -10%;
+    margin-top: -10px;
+    height: 20vh;
+}
+
+.box5{
+    width: 90%;
+    margin-left: -10%;
+    margin-top: -10px;
+    height: 20vh;
+}
+p{
+    font-size: 17px;
+    font-weight: 800;
+    margin-left: 49%;
+}
+.p1{
+    font-size: 15px;
+    margin-top: 12%;
+}
+.p2{
+    font-size: 15px;
+    margin-top: 17%;
+}
+.p3{
+    font-size: 16px;
+    
+}
+button{
+    width: 35%;
+    margin-top: 26%;
+    margin-left: 50%;
+}
+.bob{
+    margin-top: 22%;
+}
 }
