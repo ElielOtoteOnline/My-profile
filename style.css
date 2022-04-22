@@ -1,24 +1,60 @@
 html {
     scroll-behavior: smooth;
   }
+  nav{
+      position:fixed;
+      z-index: 9;
+      opacity: 0.7;
+      background-color:rgb(119, 67, 67);
+      display: flex;
+      width: 100vw;
+      height: 5vh;
+      margin-left: -2%;
+
+  }
+  ol li{
+      list-style: none;
+      margin-left: 1560%;
+      
+  }
+  ol li{
+      text-decoration: none;
+      margin-top: -20%;
+      color: white;
+      background: transparent;
+      height:4.6vh;
+      line-height: 1.9;
+      display: block;
+      width: 120%;
+      text-align: center;
+      border-radius: 8px;
+      border: 0.01rem solid white;
+  }
+  ol li:hover{
+      opacity: 0.5;
+  }
+  a{
+      text-decoration: none;
+  }
 .landing-page{
-    
-    background-image: url("pics/img8.jpg");
-    background-position:center;
+     
+    background-image: url("pics/main-mobile.jpg");
+    background-position:50%;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 40%;
     height: 98vh;
-    filter: contrast(80%);
-    filter: brightness(35%);
+    filter: contrast(0%);
+    filter: brightness(100%);
     -webkit-filter: blur(4);
     width: 100.6%;
     margin-top:-0.6%;
     margin-left: -0.6%;
    margin-bottom: -2%;
+   position: relative;
 }
 .cover{
     
-    background-color: rgba(155, 139, 139, 0.644);
+    background:linear-gradient(to right, rgba(44, 16, 16, 0.986), rgba(90, 17, 17, 0.644));
     height: 98vh;
     width: 101.2%;
     margin-top:-0.6%;
@@ -273,40 +309,43 @@ footer {
     font-weight: bolder;
 }
 @media(max-width:600px){
-body{
-    -webkit-overflow-scrolling: hidden;
-    overflow-x:none;
-    -webkit-overflow:hidden;
-    -webkit-overflow-y: none;
-    -mos-overflow-y:none;
-
-/* Hide scrollbar for IE, Edge and Firefox */
-  -ms-overflow-style: none;  /* IE and Edge */
-  scrollbar-width: 99%;
-  -ms-overflow-scrolling: hidden;
-  -ms-overflow:hidden;
-}
+    html,body
+    {
+      
+        margin: 0px;
+        padding: 0px;
+        overflow-x: hidden;
+        scroll-behavior: smooth;
+        
+    }
     .landing-page{
         height: 100vh;
         width: 104%;
         margin-left: -1.9%;
        margin-top: -3%;
      margin-right: -2%;
-     overflow: hidden;
-     
-     
-        filter: brightness(55%);
-        background-position: center;
-        
+     overflow: hidden; 
+    background-position: center;
+    background-size: cover;
+    position: relative;    
+    }
+    ol li{
+        margin-left: 500%;
+        font-size: 12px;
+        margin-top: -28%;
+        line-height: 2.3;
     }
     .btn{
         margin-top: -35%;
-        margin-left: 2.4%;
+        margin-left: 5%;
         display: block;
         width: 90%;
         line-height: 2.2;
         opacity:0.9;
         border-radius: 30px;
+    }
+    nav{
+        width: 102vw;
     }
     .gallery{
         height: 230vh;
@@ -323,10 +362,13 @@ body{
         margin-left: 11.6%;
         margin-top: 20%;
         border-radius: 10px;
-        
+        height:38vh;
+    }
+    .gallery{
+        height:195vh;
     }
     .paper{
-        height: 200vh;
+        height: 100vh;
         width: 105%;
         background: transparent;
         display: block;
@@ -338,7 +380,7 @@ body{
         line-height: 2.3;
         border-radius: 10px;
         display: block;
-        margin-top: 63%;
+        margin-top: 52%;
         margin-left: 0.9%;
 
     }
@@ -348,7 +390,7 @@ body{
         line-height: 2.3;
         border-radius: 10px;
         display: block;
-        margin-top: 63%;
+        margin-top: 52%;
         margin-left: 0.9%;
 
     }
@@ -358,7 +400,7 @@ body{
         line-height: 2.3;
         border-radius: 10px;
         display: block;
-        margin-top: 63%;
+        margin-top: 52%;
         margin-left: 0.9%;
 
     }
@@ -367,7 +409,7 @@ body{
         line-height: 2.3;
         border-radius: 10px;
         display: block;
-        margin-top: 63%;
+        margin-top: 52%;
         margin-left: 0.9%;
 
     }
@@ -376,11 +418,11 @@ footer{
     margin-left: -2.5%;
 }
 footer .btn{
-    margin-left: 5%;
+    margin-left: 8%;
     margin-top: -19%;
-    line-height: 2.5;
+    line-height: 2.2;
 }
 .footer-text{
-    font-size: 20px;
+    font-size: 15px;
 }
 }
