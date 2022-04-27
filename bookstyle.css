@@ -100,31 +100,50 @@ background-color: white;
  p{
     color: rgb(100, 1, 100);
  }
+ .nag-button{
+     display: none;
+ }
 @media(min-width:1000px) and (max-width:1250px){
 
 nav{
     margin-top: -1%;
+    width:106vw;
 }
 .box{
-    margin: 60px;
-    width: 100%;
+    margin: 20px;
+    width: 105%;
     margin-top: 0%;
+    height: 60vh;
 }
 .text-area{
     width:50%;
-    margin-left: 38%;
+    margin-left: 48%;
     padding:  8px;
     margin-top: -2%;
+}
+.secondary-box, .primary-box{
+
+    width: 105%;
+    
+}
+.secondary-box{
+    margin-top: 20%;
+
+}
+.nag-button{
+    display: none;
 }
 }
 @media(min-width:800px) and (max-width:1000px){
  
     nav{
         margin-top: -1%;
+        width:106vw;
     }
     .text-area{
         width:50%;
-        margin-left: 48%;
+        margin-left: 50%;
+        
         
     }
     h2{
@@ -136,6 +155,20 @@ nav{
     }
     p{
         margin-left: 13%;
+    }
+    .secondary-box{
+        margin-top: 15%;
+    }
+    .box{
+        height: 60vh;
+        margin:10px;
+        width:106%;
+    }
+    .secondary-box, .primary-box{
+        width:106%;
+    }
+    .nag-button{
+        display: none;
     }
 }
 
@@ -163,20 +196,59 @@ nav{
      width: 97vw;
      position: relative;
      margin-top:15%;
+     height: 230vh;
+     box-shadow: 5px 5px 10px rgba(243, 242, 242, 0.863), -2px -2px 5px rgb(243, 242, 242);
+
+
  } 
  
  .secondary-box{
     display: block;
     width: 97vw;
-    margin-top: 30%;
+    margin-top: 0%;
+    height:220vh;
+    box-shadow: 5px 5px 10px rgba(243, 242, 242, 0.863), -2px -2px 5px rgb(243, 242, 242);
+
+
 
 }     
 .box{
     width: 90%;
     display: flex;
     margin-left: -5%;
-    height: 25vh;
+    height: 50vh;
     margin:5%;
+  
+}
+#b{
+    margin-top:130%;
+    background-position: center;
+    background-size: contain;
+}
+#a{
+   
+    background-position: center;
+    background-size: contain;
+}
+#c{
+    margin-top:10%;
+    background-position: center;
+    background-size: contain;
+}
+#d{
+    margin-top:90%;
+    background-position: center;
+    background-size: contain;
+}
+.text-area{
+    margin-top: 109%;
+    margin-left: 1%;
+    white-space:pre-line;
+    width: 90%;
+}
+br{
+    line-height: -4;
+    height: 2vh;
 }
 h2{
     font-size: 15px;
@@ -190,5 +262,18 @@ h3{
 p{
     margin-left: 15%;
     font-size: 13px;
+}
+.nag-button{
+    display:block;
+    height: 6vh;
+    width: 70%;
+    line-height: 1.9;
+    border-radius: 10px;
+    margin-left: 15%;
+    margin-top: -30%;
+    text-align: center;
+    font-size: 19px;
+    color: white;
+   background: linear-gradient(to right, rgb(59, 6, 59), rgb(190, 29, 190),rgb(16, 16, 165));
 }
 }

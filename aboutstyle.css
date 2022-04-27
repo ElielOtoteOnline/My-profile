@@ -132,15 +132,18 @@ ol li{
 }
 .links{
     padding:10px;
+    width: 93%;
 }
  
  h4{
-margin-left: 0;
+margin-left: 10%;
  }
  .f1-text{
-     margin-top: 40%;
+     margin-top: 30%;
      font-size: 11px;
      margin-left: -2%;
  }
- 
+ p{
+     margin-left: 6%;
+ }
 }

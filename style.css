@@ -108,7 +108,7 @@ html {
     background-color: rgb(238, 216, 195);
     text-align: center;
     margin-top: 2%;
-    margin-left: 4%;
+    margin-left: 10%;
     border-radius: 5px;
     cursor: pointer;
     
@@ -308,7 +308,7 @@ footer {
     text-decoration: none;
     font-weight: bolder;
 }
-@media(max-width:600px){
+@media(max-width:767px){
     html,body
     {
       
@@ -330,7 +330,7 @@ footer {
     position: relative;    
     }
     ol li{
-        margin-left: 500%;
+        margin-left:20%;
         font-size: 12px;
         margin-top: -28%;
         line-height: 2.3;
@@ -348,7 +348,7 @@ footer {
         width: 102vw;
     }
     .gallery{
-        height: 230vh;
+        height: 160vh;
         width:105%;
         margin-left: -2.6%;
         background-attachment: fixed;
@@ -363,9 +363,6 @@ footer {
         margin-top: 20%;
         border-radius: 10px;
         height:38vh;
-    }
-    .gallery{
-        height:195vh;
     }
     .paper{
         height: 100vh;
